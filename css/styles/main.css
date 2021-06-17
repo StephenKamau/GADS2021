@@ -1,0 +1,101 @@
+h1 {
+    font-size: 42px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+P {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figure {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+a:link {
+    color: darkorange;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+body {
+    background-image: url(../images/red_abbey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    color: azure;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+caption {
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+th {
+    text-align: left;
+    padding-right: 30px;
+}
+
+td {
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+input {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+
+textarea {
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+
+fieldset {
+    width: 400px;
+}
+
+button {
+    color: rgb(248, 248, 248);
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(240, 44, 230);
+}
+
+button:hover {
+    background-color: rgb(199, 35, 191);
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+}
