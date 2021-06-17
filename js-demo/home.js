@@ -58,3 +58,11 @@ btn.addEventListener('click', function() {
 
 const values = ['a', 'b', 'c'];
 console.log(values);
+const newValues = values.slice(0, 2);
+console.log(newValues);
+values.splice(1, 1, 'foo');
+console.log(values);
+const set = values.filter(function(item) {
+    return item > 'b';
+});
+console.log(set);
