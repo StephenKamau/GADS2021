@@ -55,3 +55,6 @@ btn.addEventListener('click', function() {
         btn.textContent = 'See review';
     }
 });
+
+const values = ['a', 'b', 'c'];
+console.log(values);
