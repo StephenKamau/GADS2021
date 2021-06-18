@@ -1,0 +1,11 @@
+h1 {
+    padding: 8px 16px;
+    margin: 4px;
+}
+
+
+/*child combinators*/
+
+main>p {
+    font-size: larger;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /* .columns {
+            width: 100%;
+            border: solid 1px #ccc;
+        }
+        
+        .columns>div {
+            width: 50%;
+            border: solid 1px #f34;
+            float: left;
+        } */
+        
+        .columns {
+            border: solid 1px #39f;
+            display: flex;
+        }
+        
+        .columns>div {
+            border: solid 1px #ccc;
+            flex: 1;
+        }
+        
+        .columns>div:nth-last-of-type(2) {
+            flex: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="columns">
+        <div>column 1</div>
+        <div>column 2</div>
+        <div>column 3</div>
+    </div>
+</body>
+
+</html>
