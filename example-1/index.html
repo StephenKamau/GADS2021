@@ -33,7 +33,23 @@
     <main>
         <h1 class="heading">Example 1</h1>
         <p>Once upon a time...</p>
+        <button id="click-me">Click me</button>
     </main>
+    <script>
+        window.addEventListener("DOMContentLoaded", function(e) {
+            console.log("Page is fully loaded");
+            let btn = document.querySelector("#click-me");
+            btn.addEventListener("click", function(e) {
+                console.log("Clicked");
+            });
+        });
+        window.addEventListener("orientationchange", function(e) {
+            let screen = window.screen;
+            let angle = screen.orientation.angle;
+            let type = screen.orientation.type;
+            console.log(`Angle: ${angle}, type: ${type}`);
+        });
+    </script>
 </body>
 
 </html>
